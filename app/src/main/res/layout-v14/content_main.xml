@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+  <LinearLayout
+      android:orientation="vertical"
+      android:weightSum="10"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="2"
+          android:background="@color/colorPrimary">
+          <TextView
+              android:id="@+id/headertext"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:fontFamily="sans-serif"
+              android:text="offline library"
+              android:textAllCaps="true"
+              android:textColor="#ffffff"
+              android:textSize="34sp"/>
+      </RelativeLayout>
+
+      <GridLayout
+          android:id="@+id/home_grid"
+          android:layout_width="match_parent"
+          android:layout_height="273dp"
+          android:layout_weight="8" 
+          android:alignmentMode="alignMargins"
+          android:columnCount="2"
+          android:padding="14dp"
+          android:rowCount="4">
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="131dp"
+              android:layout_height="165dp"
+              android:layout_rowWeight="1"
+              android:layout_columnWeight="1"
+              android:layout_marginLeft="16dp"
+              android:layout_marginRight="16dp"
+              android:layout_marginBottom="16dp"
+              app:cardCornerRadius="8dp"
+              app:cardElevation="8dp">
+
+              <LinearLayout
+                  android:layout_width="116dp"
+                  android:layout_height="64dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_margin="16dp"
+                  android:orientation="vertical">
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:src="@drawable/ic_offline" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="protector"
+                      android:textAlignment="center"
+                      android:textColor="#000000"
+                      android:textSize="18sp"
+                      android:textStyle="bold" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+
+      </GridLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

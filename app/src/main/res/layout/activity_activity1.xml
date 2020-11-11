@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity1">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        tools:ignore="MissingConstraints"
+        >
+
+
+        <ImageView
+            android:layout_width="401dp"
+            android:layout_height="633dp"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:src="@drawable/action3"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="229dp"
+            tools:layout_editor_absoluteY="130dp" />
+
+
+
+
+    <TextView
+        android:layout_width="195dp"
+        android:layout_height="41dp"
+        android:text="the city book"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+
+    <TextView
+        android:layout_width="195dp"
+        android:layout_height="41dp"
+        android:text="the diveroent book"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        tools:layout_editor_absoluteX="-288dp"
+        tools:layout_editor_absoluteY="-261dp" />
+
+
+
+
+</LinearLayout>

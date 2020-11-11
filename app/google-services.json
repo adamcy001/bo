@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "304943698001",
+    "firebase_url": "https://book-library-df2e1.firebaseio.com",
+    "project_id": "book-library-df2e1",
+    "storage_bucket": "book-library-df2e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304943698001:android:e1348eff4184bc6e886870",
+        "android_client_info": {
+          "package_name": "com.musa.navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304943698001-m048lief3dke8ipo4sqmuisjgtgfnq3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXLKJ0cdDTu5uhWi31mhxf1R3aokA4u8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304943698001-m048lief3dke8ipo4sqmuisjgtgfnq3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
